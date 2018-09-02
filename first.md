@@ -9,3 +9,28 @@
 10.to_c # to_c means to complex (10 + 0i)
 0.3.to_r # to_r means to rational (3 / 10)
 ```
+
+
+## Variables
+
+* Assignment
+```ruby
+first_number = 7
+second_number = 14
+
+sum = first_number + second_number
+puts sum # $  21
+```
+
+* Inline Printing of Variables
+```ruby
+current_president = "Barack obama"
+puts "In 2016, the president was #{current_president}."
+```
+
+* Naming conventions
+    * Primarily snake_case,
+    * NOT camelCase.
+
+
+
