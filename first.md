@@ -32,5 +32,15 @@ puts "In 2016, the president was #{current_president}."
     * Primarily snake_case,
     * NOT camelCase.
 
+# Data Types
+* Six data types in Ruby:
+    * booleans
+    * symbols
+    * numbers
+    * strings
+    * arrays
+    * hashes
+
+
 
 
