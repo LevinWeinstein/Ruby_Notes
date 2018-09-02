@@ -41,6 +41,8 @@ puts "In 2016, the president was #{current_president}."
     * arrays
     * hashes
 
+* to see an objects class:
+    * `1.class #Integer`
 
 
 
