@@ -55,6 +55,9 @@ my_array = Array.new
     * returns that item.
     * works in accordance with push, in the same way specified by a Stack adt.
     * returns nil if no items in array when called.
+    * a number of elements to pop can be specified
+        * if the number is greater than the length of the array, <br /> all elements will be popped successfully.
+
 ```ruby
     count = []
     count.pop #=> nil
@@ -71,7 +74,7 @@ my_array = Array.new
     * returns those items, just like pop.
     * also returns nil if the array is empty, just like pop.
     * a number of elements to shift can be specified
-        * if the number is greater than the length of the array, <br /> all elements will be popper successfully.
+        * if the number is greater than the length of the array, <br /> all elements will be shifted successfully.
 ```ruby
     count = []
     count.shift #=> nil
