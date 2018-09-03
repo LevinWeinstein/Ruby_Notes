@@ -56,7 +56,7 @@ my_array = Array.new
     * works in accordance with push, in the same way specified by a Stack adt.
     * returns nil if no items in array when called.
     * a number of elements to pop can be specified
-        * if the number is greater than the length of the array, <br /> all elements will be popped successfully.
+        * if the number is greater than the length of the array, all elements will be popped successfully.
 
 ```ruby
     count = []
@@ -74,7 +74,7 @@ my_array = Array.new
     * returns those items, just like pop.
     * also returns nil if the array is empty, just like pop.
     * a number of elements to shift can be specified
-        * if the number is greater than the length of the array, <br /> all elements will be shifted successfully.
+        * if the number is greater than the length of the array, all elements will be shifted successfully.
 ```ruby
     count = []
     count.shift #=> nil
@@ -86,4 +86,31 @@ my_array = Array.new
     count       #=>[3, 4]
 ```
 
+6. The .reverse Method
+    * reverses the array (flatirons' description)
+    * this returns a reversed array basically.
+    * It leaves the original array well enough alone.
+```ruby
+    count = [1, 2, 3]
+    
+    count         #=> [1, 2, 3]
+    count.reverse #=> [3, 2, 1]
+    count         #=> [1, 2, 3]
+```
+
+7. The .include? Method
+    * Will return a boolean of whether or not the array contains the element passed in as a parameter.
+
+```ruby
+    foods = ["pizza", "pasta"]
+    foods.include?("pizza") #=> true
+    foods.include?("books") #=> false
+```
+
+8. The .length Method
+    * This is how you get the length of the array.
+```ruby
+    items = Array.new(5)
+    items.length #=> 5
+```
 
